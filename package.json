@@ -1,0 +1,19 @@
+{
+  "name": "final-task",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/register": "^7.21.0",
+    "@wdio/allure-reporter": "^8.10.7",
+    "@wdio/cli": "^8.10.5",
+    "@wdio/cucumber-framework": "^8.10.4",
+    "@wdio/local-runner": "^8.10.5",
+    "@wdio/spec-reporter": "^8.10.5",
+    "chromedriver": "^113.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
